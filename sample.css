@@ -1,0 +1,112 @@
+#nav:hover{
+
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+#fletter{
+
+    transition: transform 1s;
+
+
+}
+#fletter{
+
+    transform: rotate3d(1);
+}
+
+
+
+
+
+
+
+
+
+ #himg{
+  
+  position: relative;
+  animation-name: himg;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes himg {
+  0%   {right:0%; left:0%;}
+  
+  50%  { left:40%; right:0% ;}
+  
+  100% {left:0%; right:20;}
+}
+#himg{
+
+    transition: transform 1s;
+    transition-duration: 2s;
+}
+#himg:hover{
+
+    transform: scale(1.2);
+
+}
+
+
+#hname{
+    position: relative;
+    animation-name: hname;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction:reverse;
+}
+
+@keyframes hname {
+    0%   { left:0%; top:0%;}
+  
+    100% {left:40%; top:0%;}
+  }
+  
+
+#aimg{
+
+    transition: transform 1s;
+     transition-duration: 2s;
+}
+#aimg:hover{
+
+    transform: scale(1.2);
+
+}
+
+#icon1{
+
+    color: blue;
+}
+#icon2{
+
+    color: blue;
+}
+#icon3{
+
+    color:rgb(214, 53, 31);
+}
+
+
+
+
+
+#card{
+
+    transition: transform 1s;
+    overflow: hidden;
+}
+#card:hover{
+
+    transform: scale(1.1);
+
+}
