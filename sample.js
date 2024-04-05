@@ -9,7 +9,15 @@ function sendMail(){
 
 
 const serviecID="service_8ybyham";
-const templateID="template_z4dc1by"
+const templateID="template_z4dc1by";
+
+if(params.name === "" || params.email === "" || params.message === ""){
+    alert("please fill out all fields")
+    return;
+}
+    
+
+
 
 emailjs.send(serviecID,templateID,params)
 .then(
